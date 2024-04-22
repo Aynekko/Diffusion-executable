@@ -119,7 +119,7 @@ static void Sys_ChangeGame( const char *progname )
 	if( Xash_Shutdown == NULL )
 		Xash_Error( "Sys_ChangeGame: missed 'Host_Shutdown' export\n" );
 
-	strncpy( szGameDir, progname, sizeof( szGameDir ) - 1 );
+	strncpy_s( szGameDir, progname, sizeof( szGameDir ) - 1 );
 
 	Sys_UnloadEngine ();
 	Sys_LoadEngine ();
