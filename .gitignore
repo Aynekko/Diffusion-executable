@@ -27,11 +27,15 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
+build/
 [Bb]in/
 [Oo]bj/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
+
+game_icon.pdn
+game_icon.png
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

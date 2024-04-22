@@ -175,4 +175,7 @@
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon2.ico" />
+  </ItemGroup>
 </Project>
