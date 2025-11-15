@@ -26,4 +26,5 @@ def build(bld):
 		defines  = 'strncpy_s=strncpy',
 		use      = libs,
 		install_path = bld.env.PREFIX,
+		rpath    = '$ORIGIN',
 	)
