@@ -177,5 +177,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon2.ico" />
+    <Image Include="game_icon.ico" />
   </ItemGroup>
 </Project>
