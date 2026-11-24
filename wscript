@@ -26,5 +26,5 @@ def build(bld):
 		defines  = 'strncpy_s=strncpy',
 		use      = libs,
 		install_path = bld.env.PREFIX,
-		rpath    = '$ORIGIN',
+		rpath    = '@loader_path' if bld.env.DEST_OS == 'darwin' else '$ORIGIN',
 	)
